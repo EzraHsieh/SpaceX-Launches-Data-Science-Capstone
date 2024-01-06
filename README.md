@@ -1,8 +1,9 @@
 # SpaceX Rocket Landing Analysis & Prediction Project 🚀
+![Project cover](screenshots/cover.png)
 
 ## Executive Summary
 
-Welcome to the SpaceX Rocket Stage One Landing Prediction project! The primary goal of this data science project is to model and predict the success of SpaceX's rocket stage one landing. Leveraging datasets obtained from SpaceX's API and related Wikipedia pages, I embarked on a comprehensive analysis using a variety of data science tools and techniques. This project serves as the final submission to the Applied Data Science Capstone Project taught by IBM; it is the final course of the IBM Data Science Professional Certificate.
+Welcome to the SpaceX Rocket Stage One Landing Prediction project! The primary goal of this data science project is to model and predict the success of SpaceX's rocket stage one landing. Leveraging datasets obtained from SpaceX's API and related Wikipedia pages, I embarked on a comprehensive analysis using a variety of data science tools and techniques. This project serves as the final submission to the Applied Data Science Capstone Project taught by IBM; it is the final course required by the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science).
 
 ### Key Highlights:
 
@@ -27,8 +28,16 @@ Read the full, detailed report with visualization example on this project [here]
 1. [**Introduction**](#introduction)
 
 2. [**Methodology**](#methodology)
+    - [Data Collection](#data-collection)
+    - [Data Wrangling](#data-wrangling)
+    - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
+    - [Interactive Visual Analytics](#interactive-visual-analytics)
+    - [Predictive Analysis](#predictive-analysis)
 
 3. [**Results**](#results)
+    - [Exploratory Data Analysis](#exploratory-data-analysis-eda-1)
+    - [Interactive  Analytics](#interactive-analytics)
+    - [Predictive Analysis](#predictive-analysis-1)
 
 4. [**Conclusion**](#conclusions)
 
@@ -44,7 +53,7 @@ As a hypothetical competitor keen on understanding and predicting the dynamics o
 
 ## Methodology
 
-### Data Collection Methodology
+### Data Collection
 
 Rocket launch data served as the foundation for my analysis, sourced from two primary channels:
 
@@ -95,16 +104,19 @@ The methodology outlined above forms the systematic approach undertaken to extra
 ## Results
 
 ### Exploratory Data Analysis (EDA)
+![year vs landing outcome plot](screenshots/year_vs_landing_success.png)
 
 - **Success Rates Over Time:** My analysis revealed a positive trend in SpaceX's success rates over the years, indicating an upward trajectory in their landing success.
 
 ### Interactive Analytics
+![Piechart of all launch sites](screenshots/all_sites_piechart.png)
 
 - **Predictors of Success:** Interactive analytics unveiled significant predictors with relationships to launch success, including launching sites, booster versions, and payload masses.
 
 ### Predictive Analysis
+![Classification model confusion matrix on testing data](screenshots/confusion_matrix.png)
 
-- **Classification Models:** Logistic regression, Support Vector Machines (SVM), decision trees, and k-nearest neighbor models demonstrated similarly robust capabilities in predicting launch outcomes.
+- **Classification Models:** Logistic regression, Support Vector Machines (SVM), decision trees, and k-nearest neighbor models demonstrated virtually identifical robust capabilities in predicting launch outcomes.
 
 ## Conclusions
 
@@ -118,6 +130,6 @@ The methodology outlined above forms the systematic approach undertaken to extra
 
 ## Acknowledgment
 
-I extend my gratitude to the IBM Skills Network for providing the Data Science Professional Certificate and facilitating this capstone project. Special thanks to instructors Joseph Santarcangelo and Yan Luo for their invaluable guidance.
+I extend my gratitude to the IBM Developer Skills Network for providing the Data Science Professional Certificate and facilitating this capstone project. Special thanks to instructors Joseph Santarcangelo and Yan Luo for their invaluable guidance.
 
 I would also like to express my appreciation to Rav Ahuja, Lakshmi Holla, and Azim Hirjani for their contributions in creating the lab instructions, project guidelines, and skeleton codes, which significantly contributed to the success of this project.
