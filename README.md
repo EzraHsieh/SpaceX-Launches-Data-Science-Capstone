@@ -116,7 +116,7 @@ The methodology outlined above forms the systematic approach undertaken to extra
 ### Predictive Analysis
 ![Classification model confusion matrix on testing data](screenshots/confusion_matrix.png)
 
-- **Classification Models:** Logistic regression, Support Vector Machines (SVM), decision trees, and k-nearest neighbor models demonstrated virtually identifical robust capabilities in predicting launch outcomes.
+- **Classification Models:** Logistic regression, Support Vector Machines (SVM), decision trees, and k-nearest neighbor models demonstrated virtually identifical robust capabilities in predicting launch outcomes, with an accuracy score of 83.3%.
 
 ## Conclusions
 
